@@ -1,0 +1,59 @@
+
+
+.main-logo-img{
+    font-family: 'Taviraj', serif;
+    background-image: url(../assets/ez.jpg);
+    height: 800px;
+
+    .logo-img-text{
+        font-size: 63px;
+        color: white;
+        padding-top: 200px;
+        line-height: 70px;
+        width: 600px;
+        font-weight: 600;
+        margin-bottom: 100px;
+    }
+    .logo-img-button{
+        height: 50px;
+        width: 250px;
+        button{
+            background-color: #89c461;
+            color: white;
+            font-weight: 600;
+            font-size: 17px;
+            height: 100%;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+           
+            
+        }
+        button:hover{
+            background-color: #66ff00   ;
+        }
+    }
+    .logo-img-contacts{
+        
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        font-size: 14px;
+        margin-top: 50px;
+        color: white;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+
+        .view-more-details{
+            padding-bottom: 10px;
+            border-bottom: 1px solid #89c461 ;
+            cursor: pointer;
+        }
+        .Contact-us{
+            cursor: pointer;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #89c461 ;
+        }
+    }
+
+}
