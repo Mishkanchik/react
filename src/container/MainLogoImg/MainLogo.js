@@ -1,6 +1,7 @@
 import React from "react";
 import "container/MainLogoImg/MainLogo.scss";
 import { Container } from "@mui/material";
+import { Button } from "@mui/material";
 
 export const MainLogoImg = () => {
   return (
@@ -11,7 +12,9 @@ export const MainLogoImg = () => {
             <h2> We take care of mental & physical health </h2>
           </div>
           <div className="logo-img-button">
-            <button>Watch the presentation </button>
+            <Button variant="contained" color="success" size="medium">
+              Watch the presentation
+            </Button>
           </div>
           <div className="logo-img-contacts">
             <div className="view-more-details">View more details</div>

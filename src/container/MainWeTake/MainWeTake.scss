@@ -1,0 +1,78 @@
+.we-take-care{
+    width: 100%;
+    
+
+    .we-take-care-img{
+        width: 50%;
+        background-image: url(../assets/we-take-care-img.jpg);
+        height: 703px;
+    }
+    .we-take-care-content{
+        background-image: url(../assets/we-take-care-content-bg.jpg);
+        width: 50%;
+        height: 623px;
+        padding: 40px 80px;
+
+            .we-take-care-logo{
+            font-size: 40px;
+            line-height: 48px;
+            font-weight: 600;
+            width: 60%;
+            color: white;
+            margin-bottom: 35px;
+            font-family: "Taviraj", serif;
+            
+
+                span{
+                   width: 100%;
+                   display: block;
+                }
+
+            }
+            .we-take-care-text{
+                font-family: 'Poppins', sans-serif;
+                font-size: 14px;
+                color: white;
+                width: 70%;
+                line-height: 24px;
+                margin-bottom: 50px;
+            }
+        
+            .we-take-care-product{
+
+                height: 200px;
+                width: 560px;
+
+                .we-take-care-product-flex{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 40px;
+
+                    .we-take-care-product-el{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 255px;
+
+                        .we-take-care-product-el-img{
+                            margin-right: 25px;
+                        }
+                        .we-take-care-product-el-text{
+                            padding-top: 3px;
+                            color: white; 
+                            font-size: 21px;
+                           
+                            line-height: 25px;
+                            span{
+                                margin-right: 30px;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        
+        
+    }
+
+}

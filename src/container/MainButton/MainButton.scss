@@ -1,0 +1,36 @@
+.contact-and-ask-about-more-details-content{
+
+    width: 910px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    .contact-and-ask-about-more-details-content-logo{
+
+        color: #356938;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 600;
+
+    }
+
+    .contact-and-ask-about-more-details-content-button{
+        height: 45px;
+        text-align: center;
+        button{
+            background-color: #89c461;
+            color: #ffffff;
+            height: 100%;
+            
+            font-size: inherit;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+
+}

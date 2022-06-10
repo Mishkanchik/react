@@ -1,4 +1,6 @@
-
+.width{
+   max-width: 1030px;
+}
 
 .main-logo-img{
     font-family: 'Taviraj', serif;
@@ -21,7 +23,8 @@
             background-color: #89c461;
             color: white;
             font-weight: 600;
-            font-size: 17px;
+            text-transform: none;
+            font-size: 16px;
             height: 100%;
             width: 100%;
             border: none;
@@ -29,9 +32,7 @@
            
             
         }
-        button:hover{
-            background-color: #66ff00   ;
-        }
+   
     }
     .logo-img-contacts{
         

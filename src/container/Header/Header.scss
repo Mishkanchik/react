@@ -6,7 +6,10 @@
     cursor: pointer;
     padding-top: 3px;
 }
-
+.row{
+    display: flex;
+    justify-content: space-between;
+}
 
 .header{
     width: 100%;

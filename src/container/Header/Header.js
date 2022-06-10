@@ -1,12 +1,11 @@
 import React from "react";
 import "container/Header/Header.scss";
-import Row from "utils/Row";
 
 export const Header = () => {
   return (
     <>
       <header className="header">
-        <Row>
+        <div class="row">
           <div className="col-2">
             <img src="https://themes.muffingroup.com/be/clinic4/wp-content/uploads/2020/07/clinic4-logo.png" />
           </div>
@@ -20,7 +19,7 @@ export const Header = () => {
             <li className="favorits">Favorits</li>
             <li>Buy now</li>
           </div>
-        </Row>
+        </div>
       </header>
     </>
   );
