@@ -1,0 +1,59 @@
+.coment-slider{
+    height: 670px;
+    border-bottom: 1px solid #356938 ;
+    
+    padding-top: 100px;
+    .slider{
+        width: 78%;
+        margin: 0 auto;
+        .slider-content{
+            text-align: center;
+            img{
+                margin: 0 auto;
+                border-radius: 50%;
+                margin-bottom: 80px;
+            }
+            .slider-text{
+                font-family: 'Poppins', sans-serif;
+                color: #444444;
+                font-size: 17px;
+                margin-bottom: 40px;
+                span{
+                    padding: 5px 0;
+                    display: block;
+                    border-bottom:1px solid #b1b1b1;
+                }
+            }
+            .slider-symbol{
+                font-size: 53px;
+                color: #1f1f1f;
+                margin-bottom: 12px;
+                
+            }
+            .slider-coment-name{
+                color: #356938;
+                font-size: 15px;
+                line-height: 25px;
+                font-weight: 700;
+                margin-bottom: 12px;
+            }
+            .slider-spesific{
+                font-family: 'Poppins', sans-serif;
+                font-size: 15px;
+                color: #575757;
+                font-weight: 700;
+                margin-bottom: 25px;
+            }
+        }
+        .slick-dots li button:before{
+            font-size: 13px;
+            
+        }
+        .slick-dots li button:before{
+            color: #8f8f8f;
+        }
+        .slick-dots li.slick-active button:before{
+            color: #89c461;
+        }
+    }
+}
