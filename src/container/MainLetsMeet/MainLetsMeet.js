@@ -1,10 +1,15 @@
 import React from "react";
 import { Container } from "@mui/material";
 import "container/MainLetsMeet/MainLetsMeet.scss";
+import Swiper from "container/Slider/Slider";
+import { WeTakeCont } from "container/MainWeTake/MainWeTake";
+import { Route, Routes } from "react-router-dom";
+import { OurClinic } from "pages/Our-Clinic/Our-Clinic";
 
 export const LetsMeet = () => {
   return (
     <>
+      <WeTakeCont />
       <main className="lets-meet">
         <Container maxWidth="lg">
           <div className="row">
@@ -34,6 +39,12 @@ export const LetsMeet = () => {
           </div>
         </Container>
       </main>
+
+      <Swiper />
+      <Routes>
+        <Route path="/" element={<LetsMeet />} />
+        <Route path="/Our-clinic" element={<OurClinic />} />
+      </Routes>
     </>
   );
 };

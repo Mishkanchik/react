@@ -1,11 +1,9 @@
 import React from "react";
-import { Container } from "@mui/system";
-import { Grid } from "@mui/material";
+
 import { MainSeeOurNatural } from "container/MainSeeOurNatural/MainSeeOur";
 import MainSeeOurNaturalContent from "utils/MainSeeOurNaturalContent";
 import "container/MainSeeOurNatural/MainSeeOur.scss";
-
-export const MainOurNaturals = () => {
+export const MenuMainCategory = () => {
   return (
     <>
       <main className="see-our-natural">
@@ -23,18 +21,6 @@ export const MainOurNaturals = () => {
                 />
               </Grid>
             ))}
-            <div className="see-our-natural-content">
-              <div className="see-our-natural-button">
-                <button>
-                  <img
-                    src="https://themes.muffingroup.com/be/clinic4/wp-content/uploads/2020/07/clinic4-home-dots.png"
-                    alt=""
-                  />
-                </button>
-
-                <h3 className="see-our-natural-button-text">See more</h3>
-              </div>
-            </div>
           </Grid>
         </Container>
       </main>

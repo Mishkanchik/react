@@ -5,11 +5,21 @@
     font-weight: 400;
     cursor: pointer;
     padding-top: 3px;
+    height: 20px;
 }
 .row{
     display: flex;
     justify-content: space-between;
 }
+.active-menu-NavLink{
+    color:#91ff00;
+    text-decoration: none;
+}
+.menu-NavLink{
+    color:#256e2b;  
+    text-decoration: none;
+}
+
 
 .header{
     width: 100%;
@@ -29,17 +39,48 @@
        
         .col-6{
             display: grid;
-            grid-template-columns: 70px  80px 90px 70px 70px 70px 70px ;
+            grid-template-columns: 70px  80px 99px 70px 70px 70px 70px 70px ;
             text-align: center;
             grid-column-gap: 35px;
             padding: 20px ; 
             font-family: 'Poppins', sans-serif;
-        }
-            .header-menu-home{
-                color: #7bb157;
+           
+            .category:hover{
+                background-color: #3a9c6dfb;
+               
             }
-            
+            .category:hover .submenu{
+                transform: scaleY(1)
+            }
 
+            li{
+                
+                @extend %style-menu-header;
+               
+                .submenu{
+                    margin-top: 5px;
+                    padding-top: 20px;
+                    padding-left: 10px;
+                    display: block;
+                   
+                    background-color: #3a9c6d;
+                    height: 120px;
+                    width: 140px;
+                    text-align: left;
+                    transform: scaleY(0);
+                    transition: 400ms cubic-bezier(0.23, 1, 0.320, 1);
+                    transform-origin: top;
+                   
+                }
+               
+                
+            }
+            li:hover{
+                color: #7bb157;
+                transition: 500ms;
+            }
+        }
+           
 
             .favorits{
                 color: #ff7b00;
@@ -50,15 +91,7 @@
            
            
 
-            li{
-                
-                @extend %style-menu-header
-                
-            }
-            li:hover{
-                color: #7bb157;
-                transition: 500ms;
-            }
+           
         
     
 }

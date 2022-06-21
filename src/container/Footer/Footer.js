@@ -1,14 +1,18 @@
 import React from "react";
-import { Container, margin } from "@mui/system";
+import { Container } from "@mui/system";
 import "container/Footer/Footer.scss";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import { FooterContent } from "container/FooterContact/FooterContent";
+import { MainButton } from "container/MainButton/MainButton";
 
 export const Footer = () => {
   return (
     <>
+      <MainButton />
+      <FooterContent />
       <footer className="footer-last-content">
         <Container>
           <div className="row">

@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@mui/material";
-import { Grid } from "@mui/material";
+
 import "container/MainButton/MainButton.scss";
 
 export const MainButton = () => {
