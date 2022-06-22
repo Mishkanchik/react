@@ -1,9 +1,11 @@
 import React from "react";
-
-import { MainSeeOurNatural } from "container/MainSeeOurNatural/MainSeeOur";
+import { Container } from "@mui/system";
+import { Grid } from "@mui/material";
+import { MainSeeOurNaturalComponent } from "components/MainSeeOurNaturalComponent/MainSeeOurComponent";
 import MainSeeOurNaturalContent from "utils/MainSeeOurNaturalContent";
-import "container/MainSeeOurNatural/MainSeeOur.scss";
-export const MenuMainCategory = () => {
+import "components/MainSeeOurNaturalComponent/MainSeeOurComponent.scss";
+
+export const Categorys = () => {
   return (
     <>
       <main className="see-our-natural">
@@ -14,7 +16,7 @@ export const MenuMainCategory = () => {
           <Grid container gap="50px">
             {MainSeeOurNaturalContent.map(({ id, image, category, text }) => (
               <Grid key={id}>
-                <MainSeeOurNatural
+                <MainSeeOurNaturalComponent
                   image={image}
                   category={category}
                   text={text}

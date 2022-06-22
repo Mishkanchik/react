@@ -1,8 +1,8 @@
 import React from "react";
 
-import "container/MainSeeOurNatural/MainSeeOur.scss";
+import "components/MainSeeOurNaturalComponent/MainSeeOurComponent.scss";
 
-export const MainSeeOurNatural = ({ image, category, text }) => {
+export const MainSeeOurNaturalComponent = ({ image, category, text }) => {
   return (
     <>
       <div className="see-our-natural-content">

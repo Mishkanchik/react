@@ -1,7 +1,7 @@
 import React from "react";
-import "container/MainWeTake/MainWeTake.scss";
+import "components/MainWeTakeComponent/MainWeTakeComponent.scss";
 
-export const WeTakeCont = () => {
+export const WeTakeContComponent = () => {
   return (
     <>
       <main className="we-take-care">

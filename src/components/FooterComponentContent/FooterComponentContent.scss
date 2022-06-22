@@ -1,4 +1,4 @@
-%footer-content-a{
+%FooterComponent-content-a{
     display: block;
     font-size: 14px;
     margin-bottom: 15px;
@@ -8,7 +8,7 @@
 .shortcut-links-content{
     width: 120px;
     a{
-        @extend %footer-content-a;
+        @extend %FooterComponent-content-a;
       }
       a:hover{
           text-decoration:underline;
@@ -18,18 +18,18 @@
     display: flex;
     justify-content: space-between;
 }
-.footer-logo{
+.FooterComponent-logo{
     font-size: 21px;    
     line-height: 25px;
     font-weight: 600;
     margin-bottom: 40px;   
 }
 
-.footer-column{
+.FooterComponent-column{
     width: 243px;
 }
 
-.footer-content{
+.FooterComponent-content{
     padding: 50px 0 20px;
     height: 635px;
 
@@ -67,7 +67,7 @@
             margin-bottom: 40px;
         }
         a{
-            @extend %footer-content-a;
+            @extend %FooterComponent-content-a;
 
         }
         a:hover{

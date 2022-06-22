@@ -1,9 +1,9 @@
 import React from "react";
 import { Button } from "@mui/material";
 
-import "container/MainButton/MainButton.scss";
+import "components/MainButtonComponent/MainButtonComponent.scss";
 
-export const MainButton = () => {
+export const MainButtonComponent = () => {
   return (
     <>
       <main className="contact-and-ask-about-more-details-content">

@@ -1,15 +1,10 @@
 import React from "react";
 import { Container } from "@mui/material";
-import "container/MainLetsMeet/MainLetsMeet.scss";
-import Swiper from "container/Slider/Slider";
-import { WeTakeCont } from "container/MainWeTake/MainWeTake";
-import { Route, Routes } from "react-router-dom";
-import { OurClinic } from "pages/Our-Clinic/Our-Clinic";
+import "components/MainLetsMeetComponent/MainLetsMeetComponent.scss";
 
-export const LetsMeet = () => {
+export const LetsMeetComponent = () => {
   return (
     <>
-      <WeTakeCont />
       <main className="lets-meet">
         <Container maxWidth="lg">
           <div className="row">
@@ -23,7 +18,7 @@ export const LetsMeet = () => {
                 in reprehenderit in voluptate velit esse cillum.
               </div>
               <div className="lets-meet-button">
-                <a href=""> Contact with us</a>
+                <a href="/"> Contact with us</a>
               </div>
             </div>
             <div className="lets-meet-img-in-content">
@@ -39,12 +34,6 @@ export const LetsMeet = () => {
           </div>
         </Container>
       </main>
-
-      <Swiper />
-      <Routes>
-        <Route path="/" element={<LetsMeet />} />
-        <Route path="/Our-clinic" element={<OurClinic />} />
-      </Routes>
     </>
   );
 };

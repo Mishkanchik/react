@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "container/Slider/Slider.scss";
+import "components/SliderComponent/Slider.scss";
 import { Container } from "@mui/system";
 
-import { SliderContentsAuto } from "container/Slider/SliderContent";
+import { SliderContentsAuto } from "components/SliderComponent/SliderContent";
 import { SliderProps } from "utils/SliderContentProps";
 
 export default class SimpleSlider extends Component {

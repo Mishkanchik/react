@@ -1,22 +1,16 @@
 import React from "react";
 import { Header } from "container/Header/Header";
-import "container/Header/reset.css";
-import { MainLogoImg } from "container/MainLogoImg/MainLogo";
-import { MainOurNaturals } from "container/MainSeeOurNatural/MainSeeOurNaturals";
-
-import { LetsMeet } from "container/MainLetsMeet/MainLetsMeet";
-
+import "components/HeaderComponent/reset.css";
+import { Category } from "container/MainCategory/Category";
+import { MainPersonal } from "container/MainPerconal/MainPersonal";
 import { Footer } from "container/Footer/Footer";
 
 const App = () => {
   return (
     <>
       <Header />
-
-      <MainOurNaturals />
-
-      <LetsMeet />
-
+      <Category />
+      <MainPersonal />
       <Footer />
     </>
   );

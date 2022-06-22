@@ -1,9 +1,9 @@
 import React from "react";
-import "container/MainLogoImg/MainLogo.scss";
+import "components/MainLogoImgComponent/MainLogoImgComponent.scss";
 import { Container } from "@mui/material";
 import { Button } from "@mui/material";
 
-export const MainLogoImg = () => {
+export const MainLogoImgComponent = () => {
   return (
     <>
       <main className="main-logo-img">
