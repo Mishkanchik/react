@@ -58,6 +58,7 @@ export const LogoContact = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          title="map"
         />
       </main>
     </>
