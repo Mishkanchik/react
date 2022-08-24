@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "@mui/material";
 import "components/MainLetsMeetComponent/MainLetsMeetComponent.scss";
+import { NavLink } from "react-router-dom";
 
 export const LetsMeetComponent = () => {
   return (
@@ -18,7 +19,7 @@ export const LetsMeetComponent = () => {
                 in reprehenderit in voluptate velit esse cillum.
               </div>
               <div className="lets-meet-button">
-                <a href="/"> Contact with us</a>
+                <NavLink to="/contact"> Contact with us</NavLink>
               </div>
             </div>
             <div className="lets-meet-img-in-content">

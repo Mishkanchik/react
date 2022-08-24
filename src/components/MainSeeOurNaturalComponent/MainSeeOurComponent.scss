@@ -2,16 +2,22 @@
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 15px;
+    color: red;
+ 
+
+}
+.activelike{
+    background-image: url(../assets/LikesBigOne.png) ; 
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 40px;
     
     width: 40px;
-    background-image: url(../assets/LikesBigTwo.png);
+
     background-position: center;
     background-repeat: no-repeat;
-}
-.like:hover{
-    background-image: url(../assets/LikesBigOne.png) ; 
-   
  
 }
 
@@ -41,6 +47,7 @@
         .see-our-natural-block{
             margin: 0 auto;
             height: 426px;
+            width: 335px;
             cursor: pointer;
             margin-right: 2.7%;
             background-color: black ;
@@ -49,11 +56,12 @@
             img{
                 opacity: 1;
                 height: 427px;
-                width: 325px;
+                width: 340px;
             }
 
             .see-our-natural-block-logo{
                 font-family: 'Poppins', sans-serif;
+                text-decoration: none;
                 color: #83be5b;
                 font-size: 25px;
                 font-weight: 600;

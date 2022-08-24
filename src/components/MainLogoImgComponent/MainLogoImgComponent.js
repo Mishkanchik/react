@@ -2,6 +2,7 @@ import React from "react";
 import "components/MainLogoImgComponent/MainLogoImgComponent.scss";
 import { Container } from "@mui/material";
 import { Button } from "@mui/material";
+import { NavLink } from "react-router-dom";
 
 export const MainLogoImgComponent = () => {
   return (
@@ -17,8 +18,12 @@ export const MainLogoImgComponent = () => {
             </Button>
           </div>
           <div className="logo-img-contacts">
-            <div className="view-more-details">View more details</div>
-            <div className="Contact-us">Contact us</div>
+            <NavLink to="/specialists" className="view-more-details">
+              View more details
+            </NavLink>
+            <NavLink to="/contact" className="Contact-us">
+              Contact us
+            </NavLink>
           </div>
         </Container>
       </main>

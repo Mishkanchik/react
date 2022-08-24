@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "@mui/system";
-import { Grid } from "@mui/material";
+import { Card, Grid } from "@mui/material";
 import { MainSeeOurNaturalComponent } from "components/MainSeeOurNaturalComponent/MainSeeOurComponent";
 import MainSeeOurNaturalContent from "utils/MainSeeOurNaturalContent";
 import "components/MainSeeOurNaturalComponent/MainSeeOurComponent.scss";
@@ -16,15 +16,16 @@ export const CategoryNaturalDiet = () => {
           </div>
           <Grid container gap="50px">
             {MainSeeOurNaturalContent.filter(
-              (el) => el.category === "Natural diet"
+              (el) => el.category === "Natural-diet"
             ).map(({ id, image, category, text }) => (
-              <Grid key={id}>
+              <Card key={id}>
                 <MainSeeOurNaturalComponent
+                  id={id}
                   image={image}
                   category={category}
                   text={text}
                 />
-              </Grid>
+              </Card>
             ))}
             <NavLink
               to="/category"

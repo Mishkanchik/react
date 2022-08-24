@@ -5,7 +5,6 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { FooterComponentContent } from "components/FooterComponentContent/FooterComponentContent";
 
 export const FooterComponent = () => {
   return (

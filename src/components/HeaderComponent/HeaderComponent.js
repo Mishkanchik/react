@@ -33,16 +33,6 @@ export const HeaderComponent = () => {
               </NavLink>
             </li>
 
-            <li>
-              <NavLink
-                to="/services"
-                className={({ isActive }) =>
-                  isActive ? "active-menu-NavLink" : "menu-NavLink"
-                }
-              >
-                Services
-              </NavLink>
-            </li>
             <li className="category">
               <NavLink
                 to="/category"
@@ -124,16 +114,6 @@ export const HeaderComponent = () => {
                 }
               >
                 Contact
-              </NavLink>
-            </li>
-            <li className="favorits">
-              <NavLink
-                to="/favorits"
-                className={({ isActive }) =>
-                  isActive ? "active-menu-NavLink" : "menu-NavLink"
-                }
-              >
-                Favorits
               </NavLink>
             </li>
           </div>

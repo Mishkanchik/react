@@ -1,0 +1,62 @@
+.mgTop{
+    padding-top: 60px;
+}
+
+
+.lets-meet{
+    height: 688px;
+    background-color: #f0f5f1;
+
+     .lets-meet-img-in-content{
+          background-color: #2d493a;
+          height: 688px;
+          text-align: center;
+          width: 50%;
+          img{
+              height: auto;
+              width: 576px;
+              
+          }
+          .lets-meet-img-text{
+              padding-top: 30px;
+              color: #fff;
+              margin-bottom: 5px;
+              font-weight: 600;
+              font-size: 32px;
+              line-height: 40px;
+              p{
+                  color: #89c461;
+                  font-size: 13px;
+                  font-family: 'Poppins', sans-serif;
+              }
+  
+          }
+  
+      }
+  
+      .lets-meet-content{
+        width: 50%;
+        margin-top: 100px;
+        margin-left: 30px;
+        .lets-meet-logo{
+            width: 50%;
+            color: #356938;
+            font-size: 40px;
+            line-height: 48px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+  
+        .lets-meet-text{
+          font-size: 14px;
+          line-height: 25px;
+          color: #356938;
+          width: 85%;
+          font-family: 'Poppins', sans-serif;
+          margin-bottom: 60px;
+        }
+      
+        
+      }
+     
+  }
